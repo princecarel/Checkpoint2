@@ -93,6 +93,10 @@ Le script `Main.ps1` doit contenir cette ligne pour exécuter `AddLocalUsers.ps1
 Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSScriptRoot\AddLocalUsers.ps1`"" -Verb RunAs
 ```
 
+![image](https://github.com/user-attachments/assets/15d09d1d-e2cb-4ced-9aa6-c0d3ebda8740)
+
+
+
 ## Q.2.3 Option -Verb RunAs :
 
 Cette option permet de lancer le processus avec des privilèges d'administrateur. Elle est essentielle pour les actions nécessitant des droits élevés, comme la création de comptes utilisateurs.
